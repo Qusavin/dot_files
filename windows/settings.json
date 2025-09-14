@@ -54,5 +54,10 @@
     },
     "[jsonc]": {
         "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "custom-ui-style.stylesheet": {
+        ".sidebar": "border: none !important",
+        ".monaco-editor .decorationsOverviewRuler": "display: none !important",
+        ".title.show-file-icons .label-container .monaco-icon-label.file-icon": "justify-content: center; padding: 0 !important"
     }
 }
