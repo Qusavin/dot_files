@@ -1,0 +1,55 @@
+{
+    "scrolloff.scrolloff": 10,
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "git.autofetch": true,
+    "typescript.suggest.paths": true,
+    "files.autoSave": "afterDelay",
+    // New settings
+    "workbench.colorTheme": "JetBrains Dark New UI",
+    "vscode-pets.theme": "forest",
+    "vscode-pets.throwBallWithMouse": true,
+    "editor.fontFamily": "JetBrains Mono",
+    "workbench.iconTheme": "vscode-jetbrains-icon-theme-2023-dark",
+    "workbench.editor.showTabs": "single",
+    "workbench.statusBar.visible": false,
+    "workbench.startupEditor": "none",
+    "workbench.tips.enabled": false,
+    "editor.minimap.enabled": false,
+    "breadcrumbs.enabled": false,
+    "workbench.sideBar.location": "right",
+    "workbench.tree.enableStickyScroll": false,
+    "workbench.tree.renderIndentGuides": "none",
+    "workbench.tree.indent": 12,
+    "explorer.compactFolders": false,
+    "explorer.confirmDragAndDrop": false,
+    "explorer.confirmDelete": false,
+    "git.decorations.enabled": false,
+    "editor.cursorBlinking": "solid",
+    "editor.lineHeight": 1.5,
+    "editor.links": false,
+    "editor.parameterHints.enabled": false,
+    "editor.lightbulb.enabled": "off",
+    "editor.hover.enabled": false,
+    "files.trimTrailingWhitespace": true,
+    "editor.lineNumbers": "relative",
+    "editor.showFoldingControls": "never",
+    "editor.guides.indentation": false,
+    "editor.occurrencesHighlight": "off",
+    "editor.scrollbar.horizontal": "hidden",
+    "editor.scrollbar.vertical": "hidden",
+    "workbench.colorCustomizations": {
+        "sideBar.background": "#1e1f22"
+    },
+    "extensions.ignoreRecommendations": true,
+    "extensions.experimental.affinity": {
+        "asvetliakov.vscode-neovim": 1
+    },
+    "terminal.integrated.fontFamily": "Hack Nerd Font Mono",
+    "terminal.integrated.gpuAcceleration": "on",
+    "terminal.integrated.defaultProfile.windows": "Command Prompt",
+    "vscode-neovim.compositeKeys": {
+        "jf": {
+            "command": "vscode-neovim.escape"
+        }
+    }
+}
