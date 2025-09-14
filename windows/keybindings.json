@@ -16,7 +16,7 @@
     },
     {
         "key": "alt+k",
-        "command": "-selectNextSuggestion",
+        "command": "selectPrevSuggestion",
         "when": "suggestWidgetMultipleSuggestions && suggestWidgetVisible && textInputFocus"
     },
     {
@@ -98,5 +98,27 @@
     {
         "key": "ctrl+alt+c",
         "command": "fileutils.copyFileName"
+    },
+    {
+        "key": "alt+;",
+        "command": "editor.action.triggerSuggest",
+    },
+    {
+        "args": "<C-d>",
+        "command": "vscode-neovim.send",
+        "key": "ctrl+d",
+        "when": "editorFocus && neovim.init"
+    },
+    {
+        "args": "<CS-d>",
+        "command": "vscode-neovim.send",
+        "key": "ctrl+shift+d",
+        "when": "editorFocus && neovim.init"
+    },
+    {
+        "args": "<CS-l>",
+        "command": "vscode-neovim.send",
+        "key": "ctrl+shift+l",
+        "when": "editorFocus && neovim.init"
     }
 ]

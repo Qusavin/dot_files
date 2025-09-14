@@ -6,7 +6,7 @@
     "files.autoSave": "afterDelay",
     // New settings
     "workbench.colorTheme": "JetBrains Dark New UI",
-    "vscode-pets.theme": "forest",
+    "vscode-pets.theme": "winter",
     "vscode-pets.throwBallWithMouse": true,
     "editor.fontFamily": "JetBrains Mono",
     "workbench.iconTheme": "vscode-jetbrains-icon-theme-2023-dark",
@@ -51,5 +51,8 @@
         "jf": {
             "command": "vscode-neovim.escape"
         }
+    },
+    "[jsonc]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
     }
 }
