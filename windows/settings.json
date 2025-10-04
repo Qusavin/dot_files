@@ -1,14 +1,14 @@
 {
     "scrolloff.scrolloff": 10,
     "typescript.updateImportsOnFileMove.enabled": "always",
-    "git.autofetch": true,
+    "git.autofltch": true,
     "typescript.suggest.paths": true,
     "files.autoSave": "afterDelay",
     // New settings
     "workbench.colorTheme": "JetBrains Dark New UI",
     "vscode-pets.theme": "winter",
     "vscode-pets.throwBallWithMouse": true,
-    "editor.fontSize": 16,
+    "editor.fontSize": 14,
     "editor.fontFamily": "JetBrains Mono",
     "workbench.iconTheme": "vscode-jetbrains-icon-theme-2023-dark",
     "workbench.editor.showTabs": "multiple",
@@ -31,7 +31,7 @@
     "editor.links": false,
     "editor.parameterHints.enabled": false,
     "editor.lightbulb.enabled": "off",
-    "editor.hover.enabled": false,
+    "editor.hover.enabled": true,
     "files.trimTrailingWhitespace": true,
     "editor.lineNumbers": "relative",
     "editor.showFoldingControls": "never",
@@ -43,9 +43,6 @@
         "sideBar.background": "#1e1f22"
     },
     "extensions.ignoreRecommendations": true,
-    "terminal.integrated.fontFamily": "Hack Nerd Font Mono",
-    "terminal.integrated.gpuAcceleration": "on",
-    "terminal.integrated.defaultProfile.windows": "Command Prompt",
     "vscode-neovim.compositeKeys": {
         "jf": {
             "command": "vscode-neovim.escape"
@@ -58,5 +55,23 @@
         ".sidebar": "border: none !important",
         ".monaco-editor .decorationsOverviewRuler": "display: none !important",
         ".title.show-file-icons .label-container .monaco-icon-label.file-icon": "justify-content: center; padding: 0 !important"
-    }
+    },
+    "extensions.experimental.affinity": {
+        "asvetliakov.vscode-neovim": 1
+    },
+    "dbcode.resultLocation": "panel",
+    "[dockercompose]": {
+        "editor.insertSpaces": true,
+        "editor.tabSize": 2,
+        "editor.autoIndent": "advanced",
+        "editor.defaultFormatter": "redhat.vscode-yaml"
+    },
+    "[github-actions-workflow]": {
+        "editor.defaultFormatter": "redhat.vscode-yaml"
+    },
+    "files.eol": "\n",
+    "terminal.integrated.fontFamily": "Hack Nerd Font Mono",
+    "terminal.integrated.gpuAcceleration": "on",
+    "terminal.integrated.defaultProfile.windows": "PowerShell",
+    "terminal.external.windowsExec": "C:\\Program Files\\PowerShell\\7\\pwsh.exe -NoLogo"
 }
