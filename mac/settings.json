@@ -1,0 +1,94 @@
+{
+    "scrolloff.scrolloff": 10,
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "git.autofetch": true,
+    "typescript.suggest.paths": true,
+    "files.autoSave": "afterDelay",
+    // New settings
+    "workbench.colorTheme": "JetBrains Dark New UI",
+    "vscode-pets.theme": "winter",
+    "vscode-pets.throwBallWithMouse": true,
+    "editor.fontSize": 13,
+    "editor.fontFamily": "JetBrainsMono Nerd Font Mono",
+    "workbench.iconTheme": "vscode-jetbrains-icon-theme-2023-dark",
+    "workbench.editor.showTabs": "single",
+    "workbench.statusBar.visible": false,
+    "workbench.startupEditor": "none",
+    "workbench.tips.enabled": false,
+    "editor.minimap.enabled": false,
+    "editor.acceptSuggestionOnEnter": "on",
+    "workbench.sideBar.location": "left",
+    "workbench.tree.enableStickyScroll": false,
+    "workbench.tree.renderIndentGuides": "none",
+    "workbench.tree.indent": 16,
+    "explorer.compactFolders": false,
+    "explorer.confirmDragAndDrop": false,
+    "explorer.confirmDelete": false,
+    "git.decorations.enabled": false,
+    "editor.cursorBlinking": "solid",
+    "editor.lineHeight": 1.5,
+    "editor.links": false,
+    "editor.parameterHints.enabled": false,
+    "editor.lightbulb.enabled": "off",
+    "editor.hover.enabled": true,
+    "files.trimTrailingWhitespace": true,
+    "editor.lineNumbers": "relative",
+    "editor.showFoldingControls": "never",
+    "editor.guides.indentation": false,
+    "editor.occurrencesHighlight": "off",
+    "editor.scrollbar.horizontal": "hidden",
+    "editor.scrollbar.vertical": "hidden",
+    "workbench.colorCustomizations": {
+        "sideBar.background": "#1e1f22"
+    },
+    "extensions.ignoreRecommendations": true,
+    "extensions.experimental.affinity": {
+        "asvetliakov.vscode-neovim": 1
+    },
+    "terminal.integrated.fontFamily": "Hack Nerd Font Mono",
+    "terminal.integrated.gpuAcceleration": "on",
+    "terminal.integrated.defaultProfile.windows": "Command Prompt",
+    "vscode-neovim.compositeKeys": {
+        "jf": {
+            "command": "vscode-neovim.escape"
+        }
+    },
+    "[jsonc]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "custom-ui-style.stylesheet": {
+        ".sidebar": "border: none !important",
+        ".monaco-editor .decorationsOverviewRuler": "display: none !important",
+        ".title.show-file-icons .label-container .monaco-icon-label.file-icon": "justify-content: center; padding: 0 !important"
+    },
+    "vscode-neovim.neovimInitVimPaths.darwin": "~/.config/nvim/init.lua",
+    "[typescript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[html]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[less]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "editor.suggest.insertMode": "replace",
+    "kilo-code.allowedCommands": [
+        "git log",
+        "git diff",
+        "git show"
+    ],
+    "kilo-code.deniedCommands": [],
+    "[dockercompose]": {
+        "editor.insertSpaces": true,
+        "editor.tabSize": 2,
+        "editor.autoIndent": "advanced",
+        "editor.defaultFormatter": "redhat.vscode-yaml"
+    },
+    "[github-actions-workflow]": {
+        "editor.defaultFormatter": "redhat.vscode-yaml"
+    },
+    "[json]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    }
+}
+

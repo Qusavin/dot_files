@@ -1,0 +1,155 @@
+[
+    {
+        "key": "cmd+k",
+        "command": "workbench.action.quickOpenSelectPrevious",
+        "when": "inQuickOpen"
+    },
+    {
+        "key": "cmd+j",
+        "command": "workbench.action.quickOpenSelectNext",
+        "when": "inQuickOpen"
+    },
+    {
+        "key": "cmd+j",
+        "command": "selectNextSuggestion",
+        "when": "suggestWidgetMultipleSuggestions && suggestWidgetVisible && textInputFocus"
+    },
+    {
+        "key": "cmd+k",
+        "command": "selectPrevSuggestion",
+        "when": "suggestWidgetMultipleSuggestions && suggestWidgetVisible && textInputFocus"
+    },
+    {
+        "key": "cmd+j",
+        "command": "selectNextCodeAction",
+        "when": "codeActionMenuVisible"
+    },
+    {
+        "key": "cmd+k",
+        "command": "selectPrevCodeAction",
+        "when": "codeActionMenuVisible"
+    },
+    {
+        "key": "cmd+e",
+        "command": "workbench.action.quickOpen"
+    },
+    {
+        "key": "cmd+l",
+        "command": "workbench.action.nextEditor"
+    },
+    {
+        "key": "cmd+h",
+        "command": "workbench.action.previousEditor"
+    },
+    {
+        "key": "ctrl+k",
+        "command": "-aipopup.action.modal.generate",
+        "when": "editorFocus && !composerBarIsVisible"
+    },
+    {
+        "key": "ctrl+b",
+        "command": "-workbench.action.toggleSidebarVisibility"
+    },
+    {
+        "key": "ctrl+b",
+        "command": "-vscode-neovim.ctrl-b",
+        "when": "editorTextFocus && neovim.ctrlKeysNormal.b && neovim.init && neovim.mode != 'insert' && editorLangId not in 'neovim.editorLangIdExclusions'"
+    },
+    {
+        "key": "ctrl+b",
+        "command": "-vscode-neovim.send",
+        "when": "editorTextFocus && neovim.ctrlKeysInsert.b && neovim.init && neovim.mode == 'insert' && editorLangId not in 'neovim.editorLangIdExclusions'"
+    },
+    {
+        "key": "ctrl+b",
+        "command": "-editor.action.pageUpHover",
+        "when": "editorHoverFocused"
+    },
+    {
+        "key": "cmd+2",
+        "command": "workbench.action.focusSideBar"
+    },
+    {
+        "key": "alt+,",
+        "command": "fileutils.newFile"
+    },
+    {
+        "key": "alt+.",
+        "command": "fileutils.newFolder"
+    },
+    {
+        "key": "alt+m",
+        "command": "fileutils.newFileAtRoot"
+    },
+    {
+        "key": "alt+/",
+        "command": "fileutils.newFolderAtRoot"
+    },
+    {
+        "key": "alt+c",
+        "command": "fileutils.duplicateFile"
+    },
+    {
+        "key": "alt+d",
+        "command": "fileutils.removeFile"
+    },
+    {
+        "key": "ctrl+alt+m",
+        "command": "fileutils.moveFile"
+    },
+    {
+        "key": "alt+r",
+        "command": "fileutils.renameFile"
+    },
+    {
+        "key": "ctrl+alt+c",
+        "command": "fileutils.copyFileName"
+    },
+    {
+        "key": "cmd+;",
+        "command": "editor.action.triggerSuggest",
+    },
+    {
+        "args": "<C-d>",
+        "command": "vscode-neovim.send",
+        "key": "ctrl+d",
+        "when": "editorFocus && neovim.init"
+    },
+    {
+        "args": "<CS-d>",
+        "command": "vscode-neovim.send",
+        "key": "ctrl+shift+d",
+        "when": "editorFocus && neovim.init"
+    },
+    {
+        "args": "<CS-l>",
+        "command": "vscode-neovim.send",
+        "key": "ctrl+shift+l",
+        "when": "editorFocus && neovim.init"
+    },
+    {
+        "key": "cmd+3",
+        "command": "workbench.action.focusSecondEditorGroup"
+    },
+    {
+        "key": "cmd+2",
+        "command": "-workbench.action.focusSecondEditorGroup"
+    },
+    {
+        "key": "cmd+,",
+        "command": "-workbench.action.openSettings"
+    },
+    {
+        "key": "cmd+,",
+        "command": "editor.action.showHover",
+    },
+    {
+        "key": "cmd+j",
+        "command": "-workbench.action.togglePanel"
+    },
+    {
+        "key": "tab",
+        "command": "acceptSelectedSuggestion",
+        "when": "suggestWidgetVisible && textInputFocus && neovim.mode == 'insert'"
+    }
+]
